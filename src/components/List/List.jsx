@@ -33,6 +33,7 @@ const List = ({rating,setRating,type,setType,cat,childClicked,isLoading}) => {
                 <MenuItem value="Food">Food</MenuItem>
                 <MenuItem value="Gym">Gym</MenuItem>
                 <MenuItem value="vintage">Thrift stores</MenuItem>
+                <MenuItem value="Black">Black-owned</MenuItem>
               </Select>
             </FormControl>
             <FormControl className={classes.formControl}>
